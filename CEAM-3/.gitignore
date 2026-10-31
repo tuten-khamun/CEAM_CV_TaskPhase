@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Outputs and Data (per assignment specification)
+outputs/*
+!outputs/debug_frames/
+!outputs/debug_frames/.gitkeep
+data/*
+!data/README.md
+!data/.gitkeep
